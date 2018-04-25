@@ -1,0 +1,56 @@
+* {
+	font-family: "Segoe UI", sans-serif;
+}
+
+body {
+	background-color: #A3EEFF;
+}
+
+h1 {
+	color: #081B35;
+	text-align: center;
+	margin-top: 15vh;
+}
+
+.form {
+	margin: auto;
+	text-align: center;
+	margin-top: 8vh;
+}
+
+input[type=text] {
+	background-color: #E0FBFC;
+	height: 20px;
+	width: 35px;
+	margin: 1vh;
+	font-size: 18px;
+	text-align: center;
+}
+
+button {
+	margin-top: 2vh;
+	padding: 2px 8px 2px 8px;
+	font-size: 20px;
+}
+
+.answer {
+	color: #081B35;
+	margin-top: 5vh;
+	font-size: 20px;
+	text-align: center;
+}
+
+#ans {
+  color: #081B35;
+	margin-top: 2vh;
+	font-size: 20px;
+	text-align: center;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 99%;
+	text-align: right;
+}

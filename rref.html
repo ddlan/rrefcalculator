@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RREF Calculator</title>
+	<link rel="stylesheet" type="text/css" href="rref.css">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+	<script type="text/javascript" src="rref.js"></script>
+</head>
+<body>
+	<h1>This program calculates the RREF of a given 3x3 matrix of integers.</h1>
+	<div class="form">
+		<form id="inputform">
+			<input type="text" name="11" value="0"><input type="text" name="12" value="0"><input type="text" name="13" value="0"><br>
+	    <input type="text" name="21" value="0"><input type="text" name="22" value="0"><input type="text" name="23" value="0"><br>
+	    <input type="text" name="31" value="0"><input type="text" name="32" value="0"><input type="text" name="33" value="0"><br>
+	  </form>
+	  <button type="button" onclick="findRREF()">Solve!</button>
+	</div>
+	<p class="answer">Answer:</p>
+	<p id="ans"></p>
+	<p class="footer">Ddlan 2018</p>
+</body>
+</html>
